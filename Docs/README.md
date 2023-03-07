@@ -20,8 +20,51 @@ This application is provided to you as an alternative starter project if you do 
 - Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
 
 - AWS Elastic Beanstalk for Backend.
-
 ```
+### The project was built using
+```
+- Node
+- AWS CLI
+- EB CLI
+```
+### Backend
+```
+- typescript
+- aws-sdk
+- bcryptjs
+- body-parser
+- cors
+- dotenv
+- email-validator
+- express
+- jsonwebtoken
+- pg
+- reflect-metadata
+- sequelize
+- sequelize-typescript
+- chai
+- chai-http
+- eslint
+- eslint-config-google
+- mocha
+- ts-node-dev
+```
+### Front-end
+```
+- angular
+- ionic
+- typescript
+- core-js
+- rxjs
+- zone.js
+- codelyzer
+- jasmine
+- karma
+- protractor
+- ts-node
+- tslint
+```
+
 ## AWS Cloud Setup
 - RDS - Database Host: database-project.c2hwt4na7xus.us-east-1.rds.amazonaws.com
 - RDS - Database Port: 5432
