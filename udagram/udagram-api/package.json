@@ -13,7 +13,8 @@
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rmdir /s /q www 2> nul || echo The directory does not exist",
     "deploy": "npm run build && eb list && eb use udagram-api-dev-aisha && eb deploy udagram-api-dev-aisha",
-    "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
+    "ziip": "cd www && zip -r Archive.zip . && cd .. || echo can't zip (need to zip it manually)",
+    "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json && npm run ziip",
     "b": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
