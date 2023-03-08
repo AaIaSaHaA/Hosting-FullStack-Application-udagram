@@ -65,7 +65,19 @@ This application is provided to you as an alternative starter project if you do 
 - tslint
 ```
 
-## AWS Cloud Setup
+## AWS Cloud
+
+### Services
+```
+- IAM: stands for Identity and Access Management, which is a service provided by Amazon Web Services (AWS) that enables you to manage users, groups, and permissions for accessing AWS resources.
+- RDS: stands for Relational Database Service, which is a web service provided by Amazon Web Services (AWS) that makes it easier to set up, operate, and scale a relational database in the cloud.
+- Elastic Beanstalk: a fully managed platform-as-a-service (PaaS) offered by Amazon Web Services (AWS) that makes it easy to deploy and manage web applications. It provides a scalable and flexible platform for developers to deploy their applications without worrying about the underlying infrastructure.
+```
+```
+- Additional Service - CircleCI: is a continuous integration and continuous delivery (CI/CD) platform that allows developers to build, test, and deploy their applications with speed and confidence.
+```
+
+### Setup
 - RDS - Database Host: database-project.cp5fekw6fqlx.us-east-1.rds.amazonaws.com
 - RDS - Database Port: 5432
 - RDS - Database Name: database-project
