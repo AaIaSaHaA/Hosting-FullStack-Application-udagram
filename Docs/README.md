@@ -66,10 +66,10 @@ This application is provided to you as an alternative starter project if you do 
 ```
 
 ## AWS Cloud Setup
-- RDS - Database Host: database-project.c2hwt4na7xus.us-east-1.rds.amazonaws.com
+- RDS - Database Host: database-project.cp5fekw6fqlx.us-east-1.rds.amazonaws.com
 - RDS - Database Port: 5432
 - RDS - Database Name: database-project
-- S3 Endpoint - Frontend: http://projectbucket4010058.s3-website-us-east-1.amazonaws.com
+- S3 Endpoint - Frontend: http://elasticbeanstalk-us-east-1-235614767667.s3-website-us-east-1.amazonaws.com
 - Elastic Beanstalk URL - Backend: Udagramapiaisha-env.eba-fzpvjdbq.us-east-1.elasticbeanstalk.com
 
 ## Environment Variables
