@@ -86,6 +86,20 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
+          name: Install Elastic Beanstalk CLI
+          command: |
+            sudo apt-get update
+            sudo apt-get install -y python3-pip
+            sudo pip3 install --upgrade pip
+            sudo pip3 install awsebcli
+      - run:
+          name: Verify AWS Credentials
+          command: |
+            aws configure list
+            echo "AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID"
+            echo "AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY"
+            echo "AWS_REGION: $AWS_REGION"
+      - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: npm run deploy
