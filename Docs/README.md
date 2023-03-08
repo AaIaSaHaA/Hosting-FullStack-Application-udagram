@@ -70,7 +70,7 @@ This application is provided to you as an alternative starter project if you do 
 - RDS - Database Port: 5432
 - RDS - Database Name: database-project
 - S3 Endpoint - Frontend: http://projectbucket4010058.s3-website-us-east-1.amazonaws.com
-- Elastic Beanstalk URL - Backend: udagram-api-dev-aisha.eba-fzpvjdbq.us-east-1.elasticbeanstalk.com
+- Elastic Beanstalk URL - Backend: Udagramapiaisha-env.eba-fzpvjdbq.us-east-1.elasticbeanstalk.com
 
 ## Environment Variables
 Setup the following variables in the .env file or in the cloud environments:
