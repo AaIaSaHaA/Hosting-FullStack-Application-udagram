@@ -1,2 +1,2 @@
-aws s3 cp --recursive --acl public-read ./www s3://elasticbeanstalk-us-east-1-235614767667/
-aws s3 cp --acl public-read --cache-control="max-age=0, no-cache, no-store, must-revalidate" ./www/index.html s3://elasticbeanstalk-us-east-1-235614767667/
+aws s3 cp --recursive --acl public-read ./www s3://elasticbeanstalk-us-east-1-235614767667/ --profile newaisha
+aws s3 cp --acl public-read --cache-control="max-age=0, no-cache, no-store, must-revalidate" ./www/index.html s3://elasticbeanstalk-us-east-1-235614767667/ --profile newaisha
